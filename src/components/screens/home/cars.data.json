@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Mazda CX-5",
+    "price": 23500,
+    "image": "https://www.autocentre.ua/wp-content/uploads/2021/09/785568576.png"
+  },
+  {
+    "id": 2,
+    "name": "Toyota RAV-4",
+    "price": 25500,
+    "image": "https://cdn2.autocentre.ua/wp-content/uploads/2019/10/ff1382f1-2021-toyota-rav4-phev-1.jpg"
+  }
+]
