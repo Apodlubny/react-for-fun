@@ -1,6 +1,6 @@
 import React from "react";
-import { Main, Item, Image, InfoBox } from "./Home.styled";
-import cars from "./cars.data.json";
+import { Main } from "./Home.styled";
+// import cars from "./cars.data.json";
 
 export const Home = () => {
   return (
