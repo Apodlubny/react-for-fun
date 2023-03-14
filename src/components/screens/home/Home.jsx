@@ -1,16 +1,18 @@
 import React from "react";
+import { Main, Item, Image } from "./Home.styled";
 
 export const Home = () => {
   return (
-    <div>
+    <Main>
       <h1>Cars application</h1>
       <div>
-        <div>
+        <Item>
+          <Image />
           <h2>Car1</h2>
           <p>100000$</p>
           <button>Read more</button>
-        </div>
+        </Item>
       </div>
-    </div>
+    </Main>
   );
 };
