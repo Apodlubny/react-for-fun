@@ -1,5 +1,6 @@
 import React from "react";
+import { List } from "./CarList.styled";
 
 export const CarList = () => {
-  return <div>CarList</div>;
+  return <List>CarList</List>;
 };
