@@ -5,12 +5,11 @@ export const CarItem = ({ car: { name, price, image } }) => {
   return (
     <Item>
       <Image>
-        <img src={image}></img>
+        <img src={image} />
       </Image>
       <InfoBox>
         <h2>{name}</h2>
         <p>{price}$</p>
-
         <button>Read more</button>
       </InfoBox>
     </Item>
