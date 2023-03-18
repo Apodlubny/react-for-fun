@@ -5,11 +5,11 @@ import { CarItem } from "../carItem/CarItem";
 export const CarList = ({ cars }) => {
   return (
     <List>
-      {cars.map((car, id) => (
-        <li key={id}>
-          <CarItem car={car} />
-        </li>
-      ))}
+      {cars.length ? (
+        cars.map((car, id) => <CarItem key={id} car={car} />)
+      ) : (
+        <p>There are no cars</p>
+      )}
     </List>
   );
 };
